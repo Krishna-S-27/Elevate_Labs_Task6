@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block title %}About Me{% endblock %}
+
+{% block content %}
+<section class="about-section">
+    <div class="container">
+        <h1>About Me</h1>
+        <p>Hello! I'm <strong>Krishna Shalawadi</strong>, a passionate developer with experience in 
+        <em>Python, Flask, HTML, CSS, and JavaScript</em>.  
+        I enjoy building web applications that are fast, secure, and user-friendly.</p>
+        <p>I believe in continuous learning, and I'm always exploring new technologies to improve my skills. 
+        Apart from coding, I love reading, problem-solving, and experimenting with new ideas.</p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Python & Flask</li>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Database Management (MySQL, SQLite)</li>
+            <li>REST APIs</li>
+            <li>Web Scraping</li>
+        </ul>
+        
+        <h2>Projects</h2>
+        <p>This Portfolio consist of the work done as a intern in Elevate Labs of Task 1 to 5.</p>
+        <ul>
+            <li><a href="https://github.com/Krishna-S-27/Elevate_Labs_Task1">Calculator CLI App</a></li>
+            <li><a href="https://github.com/Krishna-S-27/Elevate_Labs_Task2">TO-DO List CLI Application</a></li>
+            <li><a href="https://github.com/Krishna-S-27/Elevate_Labs_Task3">News Headlines Scraper</a></li>
+            <li><a href="https://github.com/Krishna-S-27/Elevate_Labs_Task4">Flask REST API with Persistent Storage</a></li>
+            <li><a href="https://github.com/Krishna-S-27/Elevate_Labs_Task5">Sales Data Analysis</a></li>
+        </ul>
+
+        <h2>My Mission</h2>
+        <p>To create meaningful, impactful, and accessible web applications that make people's lives easier.</p>
+    </div>
+</section>
+
+<style>
+    body {
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.about-section {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+    padding: 2.5rem 2rem;
+}
+
+.about-section h1 {
+    color: #2563eb;
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.about-section h2 {
+    color: #2d3e50;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #e0eafc;
+    padding-bottom: 0.3rem;
+}
+
+.about-section p {
+    color: #34495e;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.about-section ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+    color: #2563eb;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-section li {
+    margin-bottom: 0.5rem;
+}
+
+.about-section a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.about-section a:hover {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+strong {
+    color: #2563eb;
+}
+
+em {
+    color: #2d3e50;
+    font-style: italic;
+}
+</style>
+{% endblock %}
